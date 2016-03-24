@@ -1,0 +1,1177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196AAA34686743558E025977 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D535B06CB4B09B9024567 /* CDVDevice.m */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		25C9D5C20ECC4FD982F41F8F /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7E353256D439893651CD7 /* IonicKeyboard.m */; };
+		26BCDEF6AE06433A9A2512C1 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EC31E0816473398CF9225 /* CDVStatusBar.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */; };
+		30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */; };
+		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
+		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
+		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		3580657B505F41B99C277917 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E05715EB248A686F5A5F1 /* CDVViewController+SplashScreen.m */; };
+		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		6D02080D027549B2B0B10F32 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB94FB9CAC3463AA0BA4244 /* CDVLogger.m */; };
+		7DCC1A5ED1DC4D0DB6A57648 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C72123D5654188BB60E0E1 /* CDVSplashScreen.m */; };
+		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		7E7966E21810823500FA85AD /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		7E7966E41810823500FA85AD /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		836E08C81CA3C9EC00DF6860 /* exec.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08561CA3C9EB00DF6860 /* exec.js */; };
+		836E08C91CA3C9EC00DF6860 /* platform.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08571CA3C9EB00DF6860 /* platform.js */; };
+		836E08CA1CA3C9EC00DF6860 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08581CA3C9EB00DF6860 /* cordova.js */; };
+		836E08CB1CA3C9EC00DF6860 /* cordova_plugins.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08591CA3C9EB00DF6860 /* cordova_plugins.js */; };
+		836E08CC1CA3C9EC00DF6860 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 836E085B1CA3C9EB00DF6860 /* style.css */; };
+		836E08CD1CA3C9EC00DF6860 /* adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836E085D1CA3C9EB00DF6860 /* adam.jpg */; };
+		836E08CE1CA3C9EC00DF6860 /* ben.png in Resources */ = {isa = PBXBuildFile; fileRef = 836E085E1CA3C9EB00DF6860 /* ben.png */; };
+		836E08CF1CA3C9EC00DF6860 /* ionic.png in Resources */ = {isa = PBXBuildFile; fileRef = 836E085F1CA3C9EB00DF6860 /* ionic.png */; };
+		836E08D01CA3C9EC00DF6860 /* max.png in Resources */ = {isa = PBXBuildFile; fileRef = 836E08601CA3C9EB00DF6860 /* max.png */; };
+		836E08D11CA3C9EC00DF6860 /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 836E08611CA3C9EB00DF6860 /* mike.png */; };
+		836E08D21CA3C9EC00DF6860 /* perry.png in Resources */ = {isa = PBXBuildFile; fileRef = 836E08621CA3C9EB00DF6860 /* perry.png */; };
+		836E08D31CA3C9EC00DF6860 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E08631CA3C9EB00DF6860 /* index.html */; };
+		836E08D41CA3C9EC00DF6860 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08651CA3C9EB00DF6860 /* app.js */; };
+		836E08D51CA3C9EC00DF6860 /* controllers.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08661CA3C9EB00DF6860 /* controllers.js */; };
+		836E08D61CA3C9EC00DF6860 /* services.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08671CA3C9EB00DF6860 /* services.js */; };
+		836E08D71CA3C9EC00DF6860 /* ionic.css in Resources */ = {isa = PBXBuildFile; fileRef = 836E086B1CA3C9EB00DF6860 /* ionic.css */; };
+		836E08D81CA3C9EC00DF6860 /* ionic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 836E086C1CA3C9EB00DF6860 /* ionic.min.css */; };
+		836E08D91CA3C9EC00DF6860 /* ionicons.eot in Resources */ = {isa = PBXBuildFile; fileRef = 836E086E1CA3C9EB00DF6860 /* ionicons.eot */; };
+		836E08DA1CA3C9EC00DF6860 /* ionicons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 836E086F1CA3C9EB00DF6860 /* ionicons.svg */; };
+		836E08DB1CA3C9EC00DF6860 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836E08701CA3C9EB00DF6860 /* ionicons.ttf */; };
+		836E08DC1CA3C9EC00DF6860 /* ionicons.woff in Resources */ = {isa = PBXBuildFile; fileRef = 836E08711CA3C9EB00DF6860 /* ionicons.woff */; };
+		836E08DD1CA3C9EC00DF6860 /* angular-animate.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08741CA3C9EB00DF6860 /* angular-animate.js */; };
+		836E08DE1CA3C9EC00DF6860 /* angular-animate.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08751CA3C9EB00DF6860 /* angular-animate.min.js */; };
+		836E08DF1CA3C9EC00DF6860 /* angular-resource.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08761CA3C9EB00DF6860 /* angular-resource.js */; };
+		836E08E01CA3C9EC00DF6860 /* angular-resource.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08771CA3C9EB00DF6860 /* angular-resource.min.js */; };
+		836E08E11CA3C9EC00DF6860 /* angular-sanitize.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08781CA3C9EB00DF6860 /* angular-sanitize.js */; };
+		836E08E21CA3C9EC00DF6860 /* angular-sanitize.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08791CA3C9EB00DF6860 /* angular-sanitize.min.js */; };
+		836E08E31CA3C9EC00DF6860 /* angular.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E087A1CA3C9EB00DF6860 /* angular.js */; };
+		836E08E41CA3C9EC00DF6860 /* angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E087B1CA3C9EB00DF6860 /* angular.min.js */; };
+		836E08E51CA3C9EC00DF6860 /* angular-ui-router.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E087D1CA3C9EB00DF6860 /* angular-ui-router.js */; };
+		836E08E61CA3C9EC00DF6860 /* angular-ui-router.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E087E1CA3C9EB00DF6860 /* angular-ui-router.min.js */; };
+		836E08E71CA3C9EC00DF6860 /* ionic-angular.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E087F1CA3C9EB00DF6860 /* ionic-angular.js */; };
+		836E08E81CA3C9EC00DF6860 /* ionic-angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08801CA3C9EB00DF6860 /* ionic-angular.min.js */; };
+		836E08E91CA3C9EC00DF6860 /* ionic.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08811CA3C9EB00DF6860 /* ionic.bundle.js */; };
+		836E08EA1CA3C9EC00DF6860 /* ionic.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08821CA3C9EB00DF6860 /* ionic.bundle.min.js */; };
+		836E08EB1CA3C9EC00DF6860 /* ionic.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08831CA3C9EB00DF6860 /* ionic.js */; };
+		836E08EC1CA3C9EC00DF6860 /* ionic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08841CA3C9EB00DF6860 /* ionic.min.js */; };
+		836E08ED1CA3C9EC00DF6860 /* _action-sheet.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08861CA3C9EB00DF6860 /* _action-sheet.scss */; };
+		836E08EE1CA3C9EC00DF6860 /* _animations.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08871CA3C9EB00DF6860 /* _animations.scss */; };
+		836E08EF1CA3C9EC00DF6860 /* _backdrop.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08881CA3C9EB00DF6860 /* _backdrop.scss */; };
+		836E08F01CA3C9EC00DF6860 /* _badge.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08891CA3C9EB00DF6860 /* _badge.scss */; };
+		836E08F11CA3C9EC00DF6860 /* _bar.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088A1CA3C9EB00DF6860 /* _bar.scss */; };
+		836E08F21CA3C9EC00DF6860 /* _button-bar.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088B1CA3C9EB00DF6860 /* _button-bar.scss */; };
+		836E08F31CA3C9EC00DF6860 /* _button.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088C1CA3C9EB00DF6860 /* _button.scss */; };
+		836E08F41CA3C9EC00DF6860 /* _checkbox.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088D1CA3C9EB00DF6860 /* _checkbox.scss */; };
+		836E08F51CA3C9EC00DF6860 /* _form.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088E1CA3C9EB00DF6860 /* _form.scss */; };
+		836E08F61CA3C9EC00DF6860 /* _grid.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E088F1CA3C9EB00DF6860 /* _grid.scss */; };
+		836E08F71CA3C9EC00DF6860 /* _items.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08901CA3C9EB00DF6860 /* _items.scss */; };
+		836E08F81CA3C9EC00DF6860 /* _list.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08911CA3C9EB00DF6860 /* _list.scss */; };
+		836E08F91CA3C9EC00DF6860 /* _loading.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08921CA3C9EB00DF6860 /* _loading.scss */; };
+		836E08FA1CA3C9EC00DF6860 /* _menu.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08931CA3C9EB00DF6860 /* _menu.scss */; };
+		836E08FB1CA3C9EC00DF6860 /* _mixins.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08941CA3C9EB00DF6860 /* _mixins.scss */; };
+		836E08FC1CA3C9EC00DF6860 /* _modal.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08951CA3C9EC00DF6860 /* _modal.scss */; };
+		836E08FD1CA3C9EC00DF6860 /* _platform.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08961CA3C9EC00DF6860 /* _platform.scss */; };
+		836E08FE1CA3C9EC00DF6860 /* _popover.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08971CA3C9EC00DF6860 /* _popover.scss */; };
+		836E08FF1CA3C9EC00DF6860 /* _popup.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08981CA3C9EC00DF6860 /* _popup.scss */; };
+		836E09001CA3C9EC00DF6860 /* _progress.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08991CA3C9EC00DF6860 /* _progress.scss */; };
+		836E09011CA3C9EC00DF6860 /* _radio.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089A1CA3C9EC00DF6860 /* _radio.scss */; };
+		836E09021CA3C9EC00DF6860 /* _range.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089B1CA3C9EC00DF6860 /* _range.scss */; };
+		836E09031CA3C9EC00DF6860 /* _refresher.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089C1CA3C9EC00DF6860 /* _refresher.scss */; };
+		836E09041CA3C9EC00DF6860 /* _reset.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089D1CA3C9EC00DF6860 /* _reset.scss */; };
+		836E09051CA3C9EC00DF6860 /* _scaffolding.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089E1CA3C9EC00DF6860 /* _scaffolding.scss */; };
+		836E09061CA3C9EC00DF6860 /* _select.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E089F1CA3C9EC00DF6860 /* _select.scss */; };
+		836E09071CA3C9EC00DF6860 /* _slide-box.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A01CA3C9EC00DF6860 /* _slide-box.scss */; };
+		836E09081CA3C9EC00DF6860 /* _slides.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A11CA3C9EC00DF6860 /* _slides.scss */; };
+		836E09091CA3C9EC00DF6860 /* _spinner.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A21CA3C9EC00DF6860 /* _spinner.scss */; };
+		836E090A1CA3C9EC00DF6860 /* _tabs.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A31CA3C9EC00DF6860 /* _tabs.scss */; };
+		836E090B1CA3C9EC00DF6860 /* _toggle.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A41CA3C9EC00DF6860 /* _toggle.scss */; };
+		836E090C1CA3C9EC00DF6860 /* _transitions.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A51CA3C9EC00DF6860 /* _transitions.scss */; };
+		836E090D1CA3C9EC00DF6860 /* _type.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A61CA3C9EC00DF6860 /* _type.scss */; };
+		836E090E1CA3C9EC00DF6860 /* _util.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A71CA3C9EC00DF6860 /* _util.scss */; };
+		836E090F1CA3C9EC00DF6860 /* _variables.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A81CA3C9EC00DF6860 /* _variables.scss */; };
+		836E09101CA3C9EC00DF6860 /* ionic.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08A91CA3C9EC00DF6860 /* ionic.scss */; };
+		836E09111CA3C9EC00DF6860 /* _ionicons-font.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08AB1CA3C9EC00DF6860 /* _ionicons-font.scss */; };
+		836E09121CA3C9EC00DF6860 /* _ionicons-icons.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08AC1CA3C9EC00DF6860 /* _ionicons-icons.scss */; };
+		836E09131CA3C9EC00DF6860 /* _ionicons-variables.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08AD1CA3C9EC00DF6860 /* _ionicons-variables.scss */; };
+		836E09141CA3C9EC00DF6860 /* ionicons.scss in Resources */ = {isa = PBXBuildFile; fileRef = 836E08AE1CA3C9EC00DF6860 /* ionicons.scss */; };
+		836E09151CA3C9EC00DF6860 /* version.json in Resources */ = {isa = PBXBuildFile; fileRef = 836E08AF1CA3C9EC00DF6860 /* version.json */; };
+		836E09161CA3C9EC00DF6860 /* console-via-logger.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08B31CA3C9EC00DF6860 /* console-via-logger.js */; };
+		836E09171CA3C9EC00DF6860 /* logger.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08B41CA3C9EC00DF6860 /* logger.js */; };
+		836E09181CA3C9EC00DF6860 /* device.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08B71CA3C9EC00DF6860 /* device.js */; };
+		836E09191CA3C9EC00DF6860 /* splashscreen.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08BA1CA3C9EC00DF6860 /* splashscreen.js */; };
+		836E091A1CA3C9EC00DF6860 /* statusbar.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08BD1CA3C9EC00DF6860 /* statusbar.js */; };
+		836E091B1CA3C9EC00DF6860 /* keyboard.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E08C11CA3C9EC00DF6860 /* keyboard.js */; };
+		836E09221CA3CDCF00DF6860 /* tab.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E09211CA3CDCF00DF6860 /* tab.html */; };
+		836E09241CA3CDDD00DF6860 /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E09231CA3CDDD00DF6860 /* message.html */; };
+		836E09261CA3CDE800DF6860 /* contact.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E09251CA3CDE800DF6860 /* contact.html */; };
+		836E09281CA3CDF100DF6860 /* find.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E09271CA3CDF100DF6860 /* find.html */; };
+		836E092C1CA3D0A600DF6860 /* route.js in Resources */ = {isa = PBXBuildFile; fileRef = 836E092B1CA3D0A600DF6860 /* route.js */; };
+		836E09421CA3F7A400DF6860 /* setting.html in Resources */ = {isa = PBXBuildFile; fileRef = 836E09411CA3F7A400DF6860 /* setting.html */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001A399A597845D98C5CC7FB /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288611634AF84F0AA6F61C7F /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h.png"; sourceTree = "<group>"; };
+		30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* wechat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wechat-Prefix.pch"; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6C8EC31E0816473398CF9225 /* CDVStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		7255E2CD529A458EA4485F31 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
+		752D535B06CB4B09B9024567 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		783E05715EB248A686F5A5F1 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
+		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
+		7E7966D71810823500FA85AD /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50@2x.png"; sourceTree = "<group>"; };
+		7E7966D81810823500FA85AD /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		7E7966D91810823500FA85AD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		7E7966DA1810823500FA85AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8205680E7C3F4C7FB7A3AEFA /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
+		836E08561CA3C9EB00DF6860 /* exec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exec.js; sourceTree = "<group>"; };
+		836E08571CA3C9EB00DF6860 /* platform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = platform.js; sourceTree = "<group>"; };
+		836E08581CA3C9EB00DF6860 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
+		836E08591CA3C9EB00DF6860 /* cordova_plugins.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova_plugins.js; sourceTree = "<group>"; };
+		836E085B1CA3C9EB00DF6860 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		836E085D1CA3C9EB00DF6860 /* adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adam.jpg; sourceTree = "<group>"; };
+		836E085E1CA3C9EB00DF6860 /* ben.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ben.png; sourceTree = "<group>"; };
+		836E085F1CA3C9EB00DF6860 /* ionic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ionic.png; sourceTree = "<group>"; };
+		836E08601CA3C9EB00DF6860 /* max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = max.png; sourceTree = "<group>"; };
+		836E08611CA3C9EB00DF6860 /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = "<group>"; };
+		836E08621CA3C9EB00DF6860 /* perry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perry.png; sourceTree = "<group>"; };
+		836E08631CA3C9EB00DF6860 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		836E08651CA3C9EB00DF6860 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		836E08661CA3C9EB00DF6860 /* controllers.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = controllers.js; sourceTree = "<group>"; };
+		836E08671CA3C9EB00DF6860 /* services.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = services.js; sourceTree = "<group>"; };
+		836E086B1CA3C9EB00DF6860 /* ionic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ionic.css; sourceTree = "<group>"; };
+		836E086C1CA3C9EB00DF6860 /* ionic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ionic.min.css; sourceTree = "<group>"; };
+		836E086E1CA3C9EB00DF6860 /* ionicons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.eot; sourceTree = "<group>"; };
+		836E086F1CA3C9EB00DF6860 /* ionicons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ionicons.svg; sourceTree = "<group>"; };
+		836E08701CA3C9EB00DF6860 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		836E08711CA3C9EB00DF6860 /* ionicons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff; sourceTree = "<group>"; };
+		836E08741CA3C9EB00DF6860 /* angular-animate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-animate.js"; sourceTree = "<group>"; };
+		836E08751CA3C9EB00DF6860 /* angular-animate.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-animate.min.js"; sourceTree = "<group>"; };
+		836E08761CA3C9EB00DF6860 /* angular-resource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-resource.js"; sourceTree = "<group>"; };
+		836E08771CA3C9EB00DF6860 /* angular-resource.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-resource.min.js"; sourceTree = "<group>"; };
+		836E08781CA3C9EB00DF6860 /* angular-sanitize.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.js"; sourceTree = "<group>"; };
+		836E08791CA3C9EB00DF6860 /* angular-sanitize.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-sanitize.min.js"; sourceTree = "<group>"; };
+		836E087A1CA3C9EB00DF6860 /* angular.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.js; sourceTree = "<group>"; };
+		836E087B1CA3C9EB00DF6860 /* angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.min.js; sourceTree = "<group>"; };
+		836E087D1CA3C9EB00DF6860 /* angular-ui-router.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-ui-router.js"; sourceTree = "<group>"; };
+		836E087E1CA3C9EB00DF6860 /* angular-ui-router.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-ui-router.min.js"; sourceTree = "<group>"; };
+		836E087F1CA3C9EB00DF6860 /* ionic-angular.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ionic-angular.js"; sourceTree = "<group>"; };
+		836E08801CA3C9EB00DF6860 /* ionic-angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ionic-angular.min.js"; sourceTree = "<group>"; };
+		836E08811CA3C9EB00DF6860 /* ionic.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.bundle.js; sourceTree = "<group>"; };
+		836E08821CA3C9EB00DF6860 /* ionic.bundle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.bundle.min.js; sourceTree = "<group>"; };
+		836E08831CA3C9EB00DF6860 /* ionic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.js; sourceTree = "<group>"; };
+		836E08841CA3C9EB00DF6860 /* ionic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ionic.min.js; sourceTree = "<group>"; };
+		836E08861CA3C9EB00DF6860 /* _action-sheet.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_action-sheet.scss"; sourceTree = "<group>"; };
+		836E08871CA3C9EB00DF6860 /* _animations.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _animations.scss; sourceTree = "<group>"; };
+		836E08881CA3C9EB00DF6860 /* _backdrop.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _backdrop.scss; sourceTree = "<group>"; };
+		836E08891CA3C9EB00DF6860 /* _badge.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _badge.scss; sourceTree = "<group>"; };
+		836E088A1CA3C9EB00DF6860 /* _bar.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _bar.scss; sourceTree = "<group>"; };
+		836E088B1CA3C9EB00DF6860 /* _button-bar.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_button-bar.scss"; sourceTree = "<group>"; };
+		836E088C1CA3C9EB00DF6860 /* _button.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _button.scss; sourceTree = "<group>"; };
+		836E088D1CA3C9EB00DF6860 /* _checkbox.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _checkbox.scss; sourceTree = "<group>"; };
+		836E088E1CA3C9EB00DF6860 /* _form.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _form.scss; sourceTree = "<group>"; };
+		836E088F1CA3C9EB00DF6860 /* _grid.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _grid.scss; sourceTree = "<group>"; };
+		836E08901CA3C9EB00DF6860 /* _items.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _items.scss; sourceTree = "<group>"; };
+		836E08911CA3C9EB00DF6860 /* _list.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _list.scss; sourceTree = "<group>"; };
+		836E08921CA3C9EB00DF6860 /* _loading.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _loading.scss; sourceTree = "<group>"; };
+		836E08931CA3C9EB00DF6860 /* _menu.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _menu.scss; sourceTree = "<group>"; };
+		836E08941CA3C9EB00DF6860 /* _mixins.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _mixins.scss; sourceTree = "<group>"; };
+		836E08951CA3C9EC00DF6860 /* _modal.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _modal.scss; sourceTree = "<group>"; };
+		836E08961CA3C9EC00DF6860 /* _platform.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _platform.scss; sourceTree = "<group>"; };
+		836E08971CA3C9EC00DF6860 /* _popover.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _popover.scss; sourceTree = "<group>"; };
+		836E08981CA3C9EC00DF6860 /* _popup.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _popup.scss; sourceTree = "<group>"; };
+		836E08991CA3C9EC00DF6860 /* _progress.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _progress.scss; sourceTree = "<group>"; };
+		836E089A1CA3C9EC00DF6860 /* _radio.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _radio.scss; sourceTree = "<group>"; };
+		836E089B1CA3C9EC00DF6860 /* _range.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _range.scss; sourceTree = "<group>"; };
+		836E089C1CA3C9EC00DF6860 /* _refresher.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _refresher.scss; sourceTree = "<group>"; };
+		836E089D1CA3C9EC00DF6860 /* _reset.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _reset.scss; sourceTree = "<group>"; };
+		836E089E1CA3C9EC00DF6860 /* _scaffolding.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _scaffolding.scss; sourceTree = "<group>"; };
+		836E089F1CA3C9EC00DF6860 /* _select.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _select.scss; sourceTree = "<group>"; };
+		836E08A01CA3C9EC00DF6860 /* _slide-box.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_slide-box.scss"; sourceTree = "<group>"; };
+		836E08A11CA3C9EC00DF6860 /* _slides.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _slides.scss; sourceTree = "<group>"; };
+		836E08A21CA3C9EC00DF6860 /* _spinner.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _spinner.scss; sourceTree = "<group>"; };
+		836E08A31CA3C9EC00DF6860 /* _tabs.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _tabs.scss; sourceTree = "<group>"; };
+		836E08A41CA3C9EC00DF6860 /* _toggle.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _toggle.scss; sourceTree = "<group>"; };
+		836E08A51CA3C9EC00DF6860 /* _transitions.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _transitions.scss; sourceTree = "<group>"; };
+		836E08A61CA3C9EC00DF6860 /* _type.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _type.scss; sourceTree = "<group>"; };
+		836E08A71CA3C9EC00DF6860 /* _util.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _util.scss; sourceTree = "<group>"; };
+		836E08A81CA3C9EC00DF6860 /* _variables.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _variables.scss; sourceTree = "<group>"; };
+		836E08A91CA3C9EC00DF6860 /* ionic.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ionic.scss; sourceTree = "<group>"; };
+		836E08AB1CA3C9EC00DF6860 /* _ionicons-font.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_ionicons-font.scss"; sourceTree = "<group>"; };
+		836E08AC1CA3C9EC00DF6860 /* _ionicons-icons.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_ionicons-icons.scss"; sourceTree = "<group>"; };
+		836E08AD1CA3C9EC00DF6860 /* _ionicons-variables.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_ionicons-variables.scss"; sourceTree = "<group>"; };
+		836E08AE1CA3C9EC00DF6860 /* ionicons.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ionicons.scss; sourceTree = "<group>"; };
+		836E08AF1CA3C9EC00DF6860 /* version.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = version.json; sourceTree = "<group>"; };
+		836E08B31CA3C9EC00DF6860 /* console-via-logger.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "console-via-logger.js"; sourceTree = "<group>"; };
+		836E08B41CA3C9EC00DF6860 /* logger.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = logger.js; sourceTree = "<group>"; };
+		836E08B71CA3C9EC00DF6860 /* device.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = device.js; sourceTree = "<group>"; };
+		836E08BA1CA3C9EC00DF6860 /* splashscreen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = splashscreen.js; sourceTree = "<group>"; };
+		836E08BD1CA3C9EC00DF6860 /* statusbar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = statusbar.js; sourceTree = "<group>"; };
+		836E08C11CA3C9EC00DF6860 /* keyboard.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = keyboard.js; sourceTree = "<group>"; };
+		836E09211CA3CDCF00DF6860 /* tab.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tab.html; sourceTree = "<group>"; };
+		836E09231CA3CDDD00DF6860 /* message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = message.html; sourceTree = "<group>"; };
+		836E09251CA3CDE800DF6860 /* contact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
+		836E09271CA3CDF100DF6860 /* find.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = find.html; sourceTree = "<group>"; };
+		836E092B1CA3D0A600DF6860 /* route.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = route.js; sourceTree = "<group>"; };
+		836E09411CA3F7A400DF6860 /* setting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = setting.html; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* wechat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "wechat-Info.plist"; path = "../wechat-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9A20A1D5710C47C2A890878F /* IonicKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; };
+		C24B810CFD714AD691344621 /* CDVStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		C3C72123D5654188BB60E0E1 /* CDVSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
+		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = wechat/config.xml; sourceTree = "<group>"; };
+		FBB94FB9CAC3463AA0BA4244 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
+		FBC7E353256D439893651CD7 /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = wechat/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* wechat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* wechat-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = wechat;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308D052D1370CCF300D202BF /* icons */,
+				308D05311370CCF300D202BF /* splash */,
+				8D1107310486CEB800E47090 /* wechat-Info.plist */,
+			);
+			name = Resources;
+			path = wechat/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FBB94FB9CAC3463AA0BA4244 /* CDVLogger.m */,
+				001A399A597845D98C5CC7FB /* CDVLogger.h */,
+				752D535B06CB4B09B9024567 /* CDVDevice.m */,
+				288611634AF84F0AA6F61C7F /* CDVDevice.h */,
+				C3C72123D5654188BB60E0E1 /* CDVSplashScreen.m */,
+				783E05715EB248A686F5A5F1 /* CDVViewController+SplashScreen.m */,
+				8205680E7C3F4C7FB7A3AEFA /* CDVSplashScreen.h */,
+				7255E2CD529A458EA4485F31 /* CDVViewController+SplashScreen.h */,
+				6C8EC31E0816473398CF9225 /* CDVStatusBar.m */,
+				C24B810CFD714AD691344621 /* CDVStatusBar.h */,
+				FBC7E353256D439893651CD7 /* IonicKeyboard.m */,
+				9A20A1D5710C47C2A890878F /* IonicKeyboard.h */,
+			);
+			name = Plugins;
+			path = wechat/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		308D052D1370CCF300D202BF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				30C1856519D5FC0A00212699 /* icon-60@3x.png */,
+				7E7966D41810823500FA85AD /* icon-40.png */,
+				7E7966D51810823500FA85AD /* icon-40@2x.png */,
+				7E7966D61810823500FA85AD /* icon-50.png */,
+				7E7966D71810823500FA85AD /* icon-50@2x.png */,
+				7E7966D81810823500FA85AD /* icon-60.png */,
+				7E7966D91810823500FA85AD /* icon-60@2x.png */,
+				7E7966DA1810823500FA85AD /* icon-76.png */,
+				7E7966DB1810823500FA85AD /* icon-76@2x.png */,
+				7E7966DC1810823500FA85AD /* icon-small.png */,
+				7E7966DD1810823500FA85AD /* icon-small@2x.png */,
+				30FC414816E50CA1004E6F35 /* icon-72@2x.png */,
+				308D052E1370CCF300D202BF /* icon-72.png */,
+				308D052F1370CCF300D202BF /* icon.png */,
+				308D05301370CCF300D202BF /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		308D05311370CCF300D202BF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */,
+				30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */,
+				30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */,
+				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
+				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
+				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
+				3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */,
+				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
+				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
+				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		836E08541CA3C9EB00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08551CA3C9EB00DF6860 /* cordova-js-src */,
+				836E08581CA3C9EB00DF6860 /* cordova.js */,
+				836E08591CA3C9EB00DF6860 /* cordova_plugins.js */,
+				836E085A1CA3C9EB00DF6860 /* css */,
+				836E085C1CA3C9EB00DF6860 /* img */,
+				836E08631CA3C9EB00DF6860 /* index.html */,
+				836E08641CA3C9EB00DF6860 /* js */,
+				836E08681CA3C9EB00DF6860 /* lib */,
+				836E08B01CA3C9EC00DF6860 /* plugins */,
+				836E08C21CA3C9EC00DF6860 /* templates */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08551CA3C9EB00DF6860 /* cordova-js-src */ = {
+			isa = PBXGroup;
+			children = (
+				836E08561CA3C9EB00DF6860 /* exec.js */,
+				836E08571CA3C9EB00DF6860 /* platform.js */,
+			);
+			path = "cordova-js-src";
+			sourceTree = "<group>";
+		};
+		836E085A1CA3C9EB00DF6860 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				836E085B1CA3C9EB00DF6860 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		836E085C1CA3C9EB00DF6860 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				836E085D1CA3C9EB00DF6860 /* adam.jpg */,
+				836E085E1CA3C9EB00DF6860 /* ben.png */,
+				836E085F1CA3C9EB00DF6860 /* ionic.png */,
+				836E08601CA3C9EB00DF6860 /* max.png */,
+				836E08611CA3C9EB00DF6860 /* mike.png */,
+				836E08621CA3C9EB00DF6860 /* perry.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		836E08641CA3C9EB00DF6860 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				836E092B1CA3D0A600DF6860 /* route.js */,
+				836E08651CA3C9EB00DF6860 /* app.js */,
+				836E08661CA3C9EB00DF6860 /* controllers.js */,
+				836E08671CA3C9EB00DF6860 /* services.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		836E08681CA3C9EB00DF6860 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				836E08691CA3C9EB00DF6860 /* ionic */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		836E08691CA3C9EB00DF6860 /* ionic */ = {
+			isa = PBXGroup;
+			children = (
+				836E086A1CA3C9EB00DF6860 /* css */,
+				836E086D1CA3C9EB00DF6860 /* fonts */,
+				836E08721CA3C9EB00DF6860 /* js */,
+				836E08851CA3C9EB00DF6860 /* scss */,
+				836E08AF1CA3C9EC00DF6860 /* version.json */,
+			);
+			path = ionic;
+			sourceTree = "<group>";
+		};
+		836E086A1CA3C9EB00DF6860 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				836E086B1CA3C9EB00DF6860 /* ionic.css */,
+				836E086C1CA3C9EB00DF6860 /* ionic.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		836E086D1CA3C9EB00DF6860 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				836E086E1CA3C9EB00DF6860 /* ionicons.eot */,
+				836E086F1CA3C9EB00DF6860 /* ionicons.svg */,
+				836E08701CA3C9EB00DF6860 /* ionicons.ttf */,
+				836E08711CA3C9EB00DF6860 /* ionicons.woff */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		836E08721CA3C9EB00DF6860 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				836E08731CA3C9EB00DF6860 /* angular */,
+				836E087C1CA3C9EB00DF6860 /* angular-ui */,
+				836E087F1CA3C9EB00DF6860 /* ionic-angular.js */,
+				836E08801CA3C9EB00DF6860 /* ionic-angular.min.js */,
+				836E08811CA3C9EB00DF6860 /* ionic.bundle.js */,
+				836E08821CA3C9EB00DF6860 /* ionic.bundle.min.js */,
+				836E08831CA3C9EB00DF6860 /* ionic.js */,
+				836E08841CA3C9EB00DF6860 /* ionic.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		836E08731CA3C9EB00DF6860 /* angular */ = {
+			isa = PBXGroup;
+			children = (
+				836E08741CA3C9EB00DF6860 /* angular-animate.js */,
+				836E08751CA3C9EB00DF6860 /* angular-animate.min.js */,
+				836E08761CA3C9EB00DF6860 /* angular-resource.js */,
+				836E08771CA3C9EB00DF6860 /* angular-resource.min.js */,
+				836E08781CA3C9EB00DF6860 /* angular-sanitize.js */,
+				836E08791CA3C9EB00DF6860 /* angular-sanitize.min.js */,
+				836E087A1CA3C9EB00DF6860 /* angular.js */,
+				836E087B1CA3C9EB00DF6860 /* angular.min.js */,
+			);
+			path = angular;
+			sourceTree = "<group>";
+		};
+		836E087C1CA3C9EB00DF6860 /* angular-ui */ = {
+			isa = PBXGroup;
+			children = (
+				836E087D1CA3C9EB00DF6860 /* angular-ui-router.js */,
+				836E087E1CA3C9EB00DF6860 /* angular-ui-router.min.js */,
+			);
+			path = "angular-ui";
+			sourceTree = "<group>";
+		};
+		836E08851CA3C9EB00DF6860 /* scss */ = {
+			isa = PBXGroup;
+			children = (
+				836E08861CA3C9EB00DF6860 /* _action-sheet.scss */,
+				836E08871CA3C9EB00DF6860 /* _animations.scss */,
+				836E08881CA3C9EB00DF6860 /* _backdrop.scss */,
+				836E08891CA3C9EB00DF6860 /* _badge.scss */,
+				836E088A1CA3C9EB00DF6860 /* _bar.scss */,
+				836E088B1CA3C9EB00DF6860 /* _button-bar.scss */,
+				836E088C1CA3C9EB00DF6860 /* _button.scss */,
+				836E088D1CA3C9EB00DF6860 /* _checkbox.scss */,
+				836E088E1CA3C9EB00DF6860 /* _form.scss */,
+				836E088F1CA3C9EB00DF6860 /* _grid.scss */,
+				836E08901CA3C9EB00DF6860 /* _items.scss */,
+				836E08911CA3C9EB00DF6860 /* _list.scss */,
+				836E08921CA3C9EB00DF6860 /* _loading.scss */,
+				836E08931CA3C9EB00DF6860 /* _menu.scss */,
+				836E08941CA3C9EB00DF6860 /* _mixins.scss */,
+				836E08951CA3C9EC00DF6860 /* _modal.scss */,
+				836E08961CA3C9EC00DF6860 /* _platform.scss */,
+				836E08971CA3C9EC00DF6860 /* _popover.scss */,
+				836E08981CA3C9EC00DF6860 /* _popup.scss */,
+				836E08991CA3C9EC00DF6860 /* _progress.scss */,
+				836E089A1CA3C9EC00DF6860 /* _radio.scss */,
+				836E089B1CA3C9EC00DF6860 /* _range.scss */,
+				836E089C1CA3C9EC00DF6860 /* _refresher.scss */,
+				836E089D1CA3C9EC00DF6860 /* _reset.scss */,
+				836E089E1CA3C9EC00DF6860 /* _scaffolding.scss */,
+				836E089F1CA3C9EC00DF6860 /* _select.scss */,
+				836E08A01CA3C9EC00DF6860 /* _slide-box.scss */,
+				836E08A11CA3C9EC00DF6860 /* _slides.scss */,
+				836E08A21CA3C9EC00DF6860 /* _spinner.scss */,
+				836E08A31CA3C9EC00DF6860 /* _tabs.scss */,
+				836E08A41CA3C9EC00DF6860 /* _toggle.scss */,
+				836E08A51CA3C9EC00DF6860 /* _transitions.scss */,
+				836E08A61CA3C9EC00DF6860 /* _type.scss */,
+				836E08A71CA3C9EC00DF6860 /* _util.scss */,
+				836E08A81CA3C9EC00DF6860 /* _variables.scss */,
+				836E08A91CA3C9EC00DF6860 /* ionic.scss */,
+				836E08AA1CA3C9EC00DF6860 /* ionicons */,
+			);
+			path = scss;
+			sourceTree = "<group>";
+		};
+		836E08AA1CA3C9EC00DF6860 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				836E08AB1CA3C9EC00DF6860 /* _ionicons-font.scss */,
+				836E08AC1CA3C9EC00DF6860 /* _ionicons-icons.scss */,
+				836E08AD1CA3C9EC00DF6860 /* _ionicons-variables.scss */,
+				836E08AE1CA3C9EC00DF6860 /* ionicons.scss */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
+		836E08B01CA3C9EC00DF6860 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B11CA3C9EC00DF6860 /* cordova-plugin-console */,
+				836E08B51CA3C9EC00DF6860 /* cordova-plugin-device */,
+				836E08B81CA3C9EC00DF6860 /* cordova-plugin-splashscreen */,
+				836E08BB1CA3C9EC00DF6860 /* cordova-plugin-statusbar */,
+				836E08BE1CA3C9EC00DF6860 /* ionic-plugin-keyboard */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		836E08B11CA3C9EC00DF6860 /* cordova-plugin-console */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B21CA3C9EC00DF6860 /* www */,
+			);
+			path = "cordova-plugin-console";
+			sourceTree = "<group>";
+		};
+		836E08B21CA3C9EC00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B31CA3C9EC00DF6860 /* console-via-logger.js */,
+				836E08B41CA3C9EC00DF6860 /* logger.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08B51CA3C9EC00DF6860 /* cordova-plugin-device */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B61CA3C9EC00DF6860 /* www */,
+			);
+			path = "cordova-plugin-device";
+			sourceTree = "<group>";
+		};
+		836E08B61CA3C9EC00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B71CA3C9EC00DF6860 /* device.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08B81CA3C9EC00DF6860 /* cordova-plugin-splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				836E08B91CA3C9EC00DF6860 /* www */,
+			);
+			path = "cordova-plugin-splashscreen";
+			sourceTree = "<group>";
+		};
+		836E08B91CA3C9EC00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08BA1CA3C9EC00DF6860 /* splashscreen.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08BB1CA3C9EC00DF6860 /* cordova-plugin-statusbar */ = {
+			isa = PBXGroup;
+			children = (
+				836E08BC1CA3C9EC00DF6860 /* www */,
+			);
+			path = "cordova-plugin-statusbar";
+			sourceTree = "<group>";
+		};
+		836E08BC1CA3C9EC00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08BD1CA3C9EC00DF6860 /* statusbar.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08BE1CA3C9EC00DF6860 /* ionic-plugin-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				836E08BF1CA3C9EC00DF6860 /* www */,
+			);
+			path = "ionic-plugin-keyboard";
+			sourceTree = "<group>";
+		};
+		836E08BF1CA3C9EC00DF6860 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				836E08C01CA3C9EC00DF6860 /* ios */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		836E08C01CA3C9EC00DF6860 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				836E08C11CA3C9EC00DF6860 /* keyboard.js */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		836E08C21CA3C9EC00DF6860 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				836E09411CA3F7A400DF6860 /* setting.html */,
+				836E09211CA3CDCF00DF6860 /* tab.html */,
+				836E09231CA3CDDD00DF6860 /* message.html */,
+				836E09251CA3CDE800DF6860 /* contact.html */,
+				836E09271CA3CDF100DF6860 /* find.html */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				836E08541CA3C9EB00DF6860 /* www */,
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* wechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wechat" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = wechat;
+			productName = wechat;
+			productReference = 1D6058910D05DD3D006BFB54 /* wechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wechat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				de,
+				se,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* wechat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836E08D41CA3C9EC00DF6860 /* app.js in Resources */,
+				836E08CE1CA3C9EC00DF6860 /* ben.png in Resources */,
+				836E09151CA3C9EC00DF6860 /* version.json in Resources */,
+				836E08EE1CA3C9EC00DF6860 /* _animations.scss in Resources */,
+				7E7966E41810823500FA85AD /* icon-76.png in Resources */,
+				7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */,
+				308D05371370CCF300D202BF /* icon-72.png in Resources */,
+				836E090A1CA3C9EC00DF6860 /* _tabs.scss in Resources */,
+				836E09131CA3C9EC00DF6860 /* _ionicons-variables.scss in Resources */,
+				836E08E01CA3C9EC00DF6860 /* angular-resource.min.js in Resources */,
+				30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */,
+				308D05381370CCF300D202BF /* icon.png in Resources */,
+				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				836E09081CA3C9EC00DF6860 /* _slides.scss in Resources */,
+				836E08E21CA3C9EC00DF6860 /* angular-sanitize.min.js in Resources */,
+				836E08FD1CA3C9EC00DF6860 /* _platform.scss in Resources */,
+				836E08F91CA3C9EC00DF6860 /* _loading.scss in Resources */,
+				836E08DF1CA3C9EC00DF6860 /* angular-resource.js in Resources */,
+				836E08CF1CA3C9EC00DF6860 /* ionic.png in Resources */,
+				836E08F01CA3C9EC00DF6860 /* _badge.scss in Resources */,
+				836E09001CA3C9EC00DF6860 /* _progress.scss in Resources */,
+				836E08E11CA3C9EC00DF6860 /* angular-sanitize.js in Resources */,
+				836E090D1CA3C9EC00DF6860 /* _type.scss in Resources */,
+				836E08FE1CA3C9EC00DF6860 /* _popover.scss in Resources */,
+				836E09191CA3C9EC00DF6860 /* splashscreen.js in Resources */,
+				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
+				836E08EB1CA3C9EC00DF6860 /* ionic.js in Resources */,
+				836E08E41CA3C9EC00DF6860 /* angular.min.js in Resources */,
+				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
+				836E09031CA3C9EC00DF6860 /* _refresher.scss in Resources */,
+				836E090B1CA3C9EC00DF6860 /* _toggle.scss in Resources */,
+				836E08FB1CA3C9EC00DF6860 /* _mixins.scss in Resources */,
+				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
+				836E08CD1CA3C9EC00DF6860 /* adam.jpg in Resources */,
+				836E08DB1CA3C9EC00DF6860 /* ionicons.ttf in Resources */,
+				836E090C1CA3C9EC00DF6860 /* _transitions.scss in Resources */,
+				836E09261CA3CDE800DF6860 /* contact.html in Resources */,
+				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
+				836E09281CA3CDF100DF6860 /* find.html in Resources */,
+				836E08C91CA3C9EC00DF6860 /* platform.js in Resources */,
+				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
+				836E090F1CA3C9EC00DF6860 /* _variables.scss in Resources */,
+				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
+				836E09071CA3C9EC00DF6860 /* _slide-box.scss in Resources */,
+				836E08D31CA3C9EC00DF6860 /* index.html in Resources */,
+				836E08CA1CA3C9EC00DF6860 /* cordova.js in Resources */,
+				836E08E31CA3C9EC00DF6860 /* angular.js in Resources */,
+				836E08DC1CA3C9EC00DF6860 /* ionicons.woff in Resources */,
+				836E08F31CA3C9EC00DF6860 /* _button.scss in Resources */,
+				836E08D71CA3C9EC00DF6860 /* ionic.css in Resources */,
+				836E09101CA3C9EC00DF6860 /* ionic.scss in Resources */,
+				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				836E09141CA3C9EC00DF6860 /* ionicons.scss in Resources */,
+				836E092C1CA3D0A600DF6860 /* route.js in Resources */,
+				836E08ED1CA3C9EC00DF6860 /* _action-sheet.scss in Resources */,
+				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				836E08E61CA3C9EC00DF6860 /* angular-ui-router.min.js in Resources */,
+				836E08E81CA3C9EC00DF6860 /* ionic-angular.min.js in Resources */,
+				836E09021CA3C9EC00DF6860 /* _range.scss in Resources */,
+				836E08DA1CA3C9EC00DF6860 /* ionicons.svg in Resources */,
+				836E09111CA3C9EC00DF6860 /* _ionicons-font.scss in Resources */,
+				836E08D81CA3C9EC00DF6860 /* ionic.min.css in Resources */,
+				836E08F71CA3C9EC00DF6860 /* _items.scss in Resources */,
+				836E091A1CA3C9EC00DF6860 /* statusbar.js in Resources */,
+				836E08C81CA3C9EC00DF6860 /* exec.js in Resources */,
+				836E09121CA3C9EC00DF6860 /* _ionicons-icons.scss in Resources */,
+				836E08E91CA3C9EC00DF6860 /* ionic.bundle.js in Resources */,
+				836E09051CA3C9EC00DF6860 /* _scaffolding.scss in Resources */,
+				30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */,
+				836E08EF1CA3C9EC00DF6860 /* _backdrop.scss in Resources */,
+				836E09241CA3CDDD00DF6860 /* message.html in Resources */,
+				836E09221CA3CDCF00DF6860 /* tab.html in Resources */,
+				836E08F81CA3C9EC00DF6860 /* _list.scss in Resources */,
+				836E09061CA3C9EC00DF6860 /* _select.scss in Resources */,
+				836E09091CA3C9EC00DF6860 /* _spinner.scss in Resources */,
+				836E091B1CA3C9EC00DF6860 /* keyboard.js in Resources */,
+				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
+				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
+				836E08FC1CA3C9EC00DF6860 /* _modal.scss in Resources */,
+				836E08EA1CA3C9EC00DF6860 /* ionic.bundle.min.js in Resources */,
+				836E09181CA3C9EC00DF6860 /* device.js in Resources */,
+				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
+				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
+				30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */,
+				836E09161CA3C9EC00DF6860 /* console-via-logger.js in Resources */,
+				836E09041CA3C9EC00DF6860 /* _reset.scss in Resources */,
+				836E08DD1CA3C9EC00DF6860 /* angular-animate.js in Resources */,
+				836E09171CA3C9EC00DF6860 /* logger.js in Resources */,
+				836E08E51CA3C9EC00DF6860 /* angular-ui-router.js in Resources */,
+				836E08F41CA3C9EC00DF6860 /* _checkbox.scss in Resources */,
+				836E08EC1CA3C9EC00DF6860 /* ionic.min.js in Resources */,
+				836E08FF1CA3C9EC00DF6860 /* _popup.scss in Resources */,
+				836E08F61CA3C9EC00DF6860 /* _grid.scss in Resources */,
+				836E08F51CA3C9EC00DF6860 /* _form.scss in Resources */,
+				836E090E1CA3C9EC00DF6860 /* _util.scss in Resources */,
+				30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */,
+				836E09011CA3C9EC00DF6860 /* _radio.scss in Resources */,
+				836E08F21CA3C9EC00DF6860 /* _button-bar.scss in Resources */,
+				836E08D11CA3C9EC00DF6860 /* mike.png in Resources */,
+				836E08D51CA3C9EC00DF6860 /* controllers.js in Resources */,
+				836E08CC1CA3C9EC00DF6860 /* style.css in Resources */,
+				836E08DE1CA3C9EC00DF6860 /* angular-animate.min.js in Resources */,
+				836E08D91CA3C9EC00DF6860 /* ionicons.eot in Resources */,
+				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
+				836E08D01CA3C9EC00DF6860 /* max.png in Resources */,
+				836E09421CA3F7A400DF6860 /* setting.html in Resources */,
+				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
+				836E08CB1CA3C9EC00DF6860 /* cordova_plugins.js in Resources */,
+				836E08E71CA3C9EC00DF6860 /* ionic-angular.js in Resources */,
+				836E08FA1CA3C9EC00DF6860 /* _menu.scss in Resources */,
+				836E08D21CA3C9EC00DF6860 /* perry.png in Resources */,
+				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				836E08D61CA3C9EC00DF6860 /* services.js in Resources */,
+				836E08F11CA3C9EC00DF6860 /* _bar.scss in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				6D02080D027549B2B0B10F32 /* CDVLogger.m in Sources */,
+				196AAA34686743558E025977 /* CDVDevice.m in Sources */,
+				7DCC1A5ED1DC4D0DB6A57648 /* CDVSplashScreen.m in Sources */,
+				3580657B505F41B99C277917 /* CDVViewController+SplashScreen.m in Sources */,
+				26BCDEF6AE06433A9A2512C1 /* CDVStatusBar.m in Sources */,
+				25C9D5C20ECC4FD982F41F8F /* IonicKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wechat/wechat-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wechat/wechat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = wechat;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wechat/wechat-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "wechat/wechat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = wechat;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
